@@ -48,16 +48,16 @@ export const education = [
   {
     from: "2019",
     to: "2022",
-    institute: "Escuela de Nivel Medio Superior de Leon",
+    institute: "Escuela de Nivel Medio Superior de León",
     course: "Preparatoria - Ingenieria",
-    location: "Leon, Gto.",
+    location: "León, Gto.",
   },
   {
     from: "2022",
     to: "2024",
     institute: "Universidad Tecnológica de león",
     course: "Técnico Superior Universitario",
-    location: "Leon, Gto.",
+    location: "León, Gto.",
   },
 ];
 
