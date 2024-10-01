@@ -48,15 +48,15 @@ export const education = [
   {
     from: "2019",
     to: "2022",
-    institute: "Escuela de nivel medio superior de leon",
+    institute: "Escuela de Nivel Medio Superior de Leon",
     course: "Preparatoria - Ingenieria",
     location: "Leon, Gto.",
   },
   {
     from: "2022",
     to: "2024",
-    institute: "Universidad Tecnologica de león",
-    course: "Tecnico Superior Universitario",
+    institute: "Universidad Tecnológica de león",
+    course: "Técnico Superior Universitario",
     location: "Leon, Gto.",
   },
 ];
@@ -65,7 +65,7 @@ export const education = [
 export const contact = [
   {
     source_name: "Email",
-    source: "checoevr@gmail.com",
+    source: "mailto:checoevr@gmail.com",
   },
 ];
 
