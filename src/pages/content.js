@@ -1,7 +1,7 @@
 // Personal Information --> #hero section
 export const name = "Sergio Vázquez";
 export const designation = "Desarrollador de Software";
-export const location = "Leon, Gto";
+export const location = "León, Gto";
 
 // About
 export const about =
@@ -15,7 +15,7 @@ export const work = [
     role: "Estadias Profesionales",
     org: "Centro de investigaciones en óptica",
     org_url: "https://www.cio.mx/",
-    location: "Leon, Gto",
+    location: "León, Gto",
   },
   {
     from: "2024",
@@ -23,7 +23,7 @@ export const work = [
     role: "Auxiliar Desarrollo de Software",
     org: "Transportes Castores",
     org_url: "https://www.castores.com.mx/",
-    location: "Leon, Gto",
+    location: "León, Gto",
   },
 ];
 
@@ -38,7 +38,7 @@ export const projects = [
     url: "https://github.com/SergioVazRizo/CashPlash_Pro",
   },
   {
-    title: "Sistema_Control_De_Prestamos",
+    title: "Sistema_Prestamos",
     url: "https://github.com/SergioVazRizo/Sistema_Control_De_Prestamos",
   },
 ];
@@ -55,7 +55,7 @@ export const education = [
   {
     from: "2022",
     to: "2024",
-    institute: "Universidad Tecnológica de león",
+    institute: "Universidad Tecnológica de León",
     course: "Técnico Superior Universitario",
     location: "León, Gto.",
   },
@@ -64,8 +64,24 @@ export const education = [
 // Contact --> #contact section
 export const contact = [
   {
-    source_name: "Email",
+    source_name: "Correo",
     source: "mailto:checoevr@gmail.com",
+  },
+  {
+    source_name: "Facebook",
+    source: "https://www.facebook.com/profile.php?id=100015491590343",
+  },
+  {
+    source_name: "Instagram",
+    source: "https://www.instagram.com/sergio_vazrizo/",
+  },
+  {
+    source_name: "Whatsapp",
+    source: "https://api.whatsapp.com/send?phone=524771061137",
+  },
+  {
+    source_name: "Linkedlin",
+    source: "https://www.linkedin.com/in/sergio-v%C3%A1zquez-8043b5326/",
   },
 ];
 
