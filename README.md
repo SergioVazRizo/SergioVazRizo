@@ -1,8 +1,12 @@
 # Hola 👋
 
-### Acerca de mí<br><br>Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma. Tengo conocimientos sólidos en Programación Orientada a Objetos y desarrollo web utilizando HTML, CSS, JavaScript y frameworks como Bootstrap. Poseo habilidades en el diseño, implementación y gestión de bases de datos relacionales y no relacionales, empleando tecnologías como MySQL y MongoDB. Además, estoy familiarizado con el desarrollo de aplicaciones móviles para dispositivos Android utilizando herramientas como Android Studio.
+### Acerca de mí<br><br>
+Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma. Tengo conocimientos sólidos en Programación Orientada a Objetos y desarrollo web utilizando HTML, CSS, JavaScript y Bootstrap, conocimientos básicos en freamworks de desarrollo web con Angular y Astro.
+<br>Habilidades en el diseño, implementación y gestión de bases de datos relacionales y no relacionales, empleando tecnologías como MySQL y MongoDB. 
+<br>Familiarizado con el desarrollo de aplicaciones móviles utilizando herramientas como Android Studio.
 
-### Tecnologias
+
+### Tecnologias que he utilizado.
 
 <div align="center">  
 <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
@@ -35,7 +39,7 @@
 
 <br/>
 
-## Contactame
+## Me puedes contactar en:
 
 <div align="center">
 <a href="https://github.com/SergioVazRizo" target="_blank">
