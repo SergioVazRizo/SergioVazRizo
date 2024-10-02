@@ -29,8 +29,10 @@ Desarrollador de software con experiencia en la creación de aplicaciones multip
     <a href="https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html#:~:text=The%20Spring%20Expression%20Language%20(SpEL,and%20basic%20string%20templating%20functionality." target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="50" /></a>  
     <a href="https://www.figma.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" /></a>  
     <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/powershell.png" alt="PowerShell" height="50" /></a>  
-    <a href="https://astexplorer.net/" target="_blank"><img style="margin: 10px" src="https://example.com/path-to-ast-icon.png" alt="AST" height="50" /></a>  
+    <a href="https://astro.build/" target="_blank"><img style="margin: 10px" src="https://astro.build/favicon.ico" alt="Astro" height="50" /></a>  
     <a href="https://vercel.com/" target="_blank"><img style="margin: 10px" src="https://vercel.com/favicon.ico" alt="Vercel" height="50" /></a>  
+    <a href="https://www.embarcadero.com/products/delphi" target="_blank"><img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Embarcadero_Delphi_logo.svg/1200px-Embarcadero_Delphi_logo.svg.png" alt="Delphi" height="50" /></a>  
+    <a href="https://www.virtualbox.org/" target="_blank"><img style="margin: 10px" src="https://www.virtualbox.org/branding/images/VirtualBox.png" alt="Oracle VirtualBox" height="50" /></a>  
 </div>
 
 
