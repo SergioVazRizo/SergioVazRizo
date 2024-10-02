@@ -5,8 +5,7 @@ export const location = "León, Gto";
 
 // About
 export const about =
-  "Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma. Tengo conocimientos sólidos en Programación Orientada a Objetos y desarrollo web utilizando HTML, CSS, JavaScript y Bootstrap, conocimientos básicos en freamworks de desarrollo web con Angular y Astro. Habilidades en el diseño, implementación y gestión de bases de datos relacionales y no relacionales, empleando tecnologías como MySQL y MongoDB.
-Familiarizado con el desarrollo de aplicaciones móviles utilizando herramientas como Android Studio.";
+  "Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma. Tengo conocimientos sólidos en Programación Orientada a Objetos y desarrollo web utilizando HTML, CSS, JavaScript y Bootstrap, conocimientos básicos en freamworks de desarrollo web con Angular y Astro. Habilidades en el diseño, implementación y gestión de bases de datos relacionales y no relacionales, empleando tecnologías como MySQL y MongoDB.Familiarizado con el desarrollo de aplicaciones móviles utilizando herramientas como Android Studio.";
 
 // Work Experience --> #work section
 export const work = [
