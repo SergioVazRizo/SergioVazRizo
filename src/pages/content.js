@@ -68,14 +68,6 @@ export const contact = [
     source: "mailto:checoevr@gmail.com",
   },
   {
-    source_name: "Facebook",
-    source: "https://www.facebook.com/profile.php?id=100015491590343",
-  },
-  {
-    source_name: "Instagram",
-    source: "https://www.instagram.com/sergio_vazrizo/",
-  },
-  {
     source_name: "Whatsapp",
     source: "https://api.whatsapp.com/send?phone=524771061137",
   },
