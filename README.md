@@ -1,10 +1,8 @@
 # Hola 👋
 
 ### Acerca de mí<br><br>
-Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma. Tengo conocimientos sólidos en Programación Orientada a Objetos y desarrollo web utilizando HTML, CSS, JavaScript y Bootstrap, conocimientos básicos en freamworks de desarrollo web con Angular y Astro.
-<br>Habilidades en el diseño, implementación y gestión de bases de datos relacionales y no relacionales, empleando tecnologías como MySQL y MongoDB. 
-<br>Familiarizado con el desarrollo de aplicaciones móviles utilizando herramientas como Android Studio.
 
+Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma, especializado en Programación Orientada a Objetos y desarrollo web. Competente en tecnologías frontend como HTML, CSS, JavaScript y Bootstrap, con conocimientos prácticos en frameworks modernos como Angular y Astro. Habilidades en el diseño, implementación y gestión de bases de datos tanto relacionales (MySQL) como no relacionales (MongoDB). Familiarizado con el desarrollo de aplicaciones móviles utilizando Android Studio, con capacidad para gestionar proyectos desde la arquitectura hasta el despliegue, optimizando el rendimiento y la usabilidad de los sistemas.
 
 ### Tecnologias que he utilizado.
 
@@ -29,7 +27,7 @@ Desarrollador de software con experiencia en la creación de aplicaciones multip
     <a href="https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html#:~:text=The%20Spring%20Expression%20Language%20(SpEL,and%20basic%20string%20templating%20functionality." target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="50" /></a>  
     <a href="https://www.figma.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" /></a>  
     <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/powershell.png" alt="PowerShell" height="50" /></a>  
-    <a href="https://vercel.com/" target="_blank"><img style="margin: 10px" src="https://vercel.com/favicon.ico" alt="Vercel" height="50" /></a>  
+    <a href="https://vercel.com/" target="_blank"><img style="margin: 10px" src="https://vercel.com/favicon.ico" alt="Vercel" height="50" /></a>
 
 </td><td valign="top" width="33%">
 </td><td valign="top" width="33%">
