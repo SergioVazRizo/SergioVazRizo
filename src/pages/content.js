@@ -5,7 +5,7 @@ export const location = "León, Gto";
 
 // About
 export const about =
-  "Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma. Tengo conocimientos sólidos en Programación Orientada a Objetos y desarrollo web utilizando HTML, CSS, JavaScript y Bootstrap, conocimientos básicos en freamworks de desarrollo web con Angular y Astro. Habilidades en el diseño, implementación y gestión de bases de datos relacionales y no relacionales, empleando tecnologías como MySQL y MongoDB.Familiarizado con el desarrollo de aplicaciones móviles utilizando herramientas como Android Studio.";
+  "Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma, especializado en Programación Orientada a Objetos y desarrollo web. Competente en tecnologías frontend como HTML, CSS, JavaScript y Bootstrap, con conocimientos prácticos en frameworks modernos como Angular y Astro. Habilidades en el diseño, implementación y gestión de bases de datos tanto relacionales (MySQL) como no relacionales (MongoDB). Familiarizado con el desarrollo de aplicaciones móviles utilizando Android Studio, con capacidad para gestionar proyectos desde la arquitectura hasta el despliegue, optimizando el rendimiento y la usabilidad de los sistemas.";
 
 // Work Experience --> #work section
 export const work = [
@@ -31,7 +31,7 @@ export const work = [
 export const projects = [
   {
     title: "Sistema-Central-de-Farmacias",
-    url: "https://projectgriffin.com",
+    url: "https://github.com/SergioVazRizo/Sistema-Central-de-Farmacias",
   },
   {
     title: "CashPlash_Pro",
@@ -40,6 +40,14 @@ export const projects = [
   {
     title: "Sistema_Prestamos",
     url: "https://github.com/SergioVazRizo/Sistema_Control_De_Prestamos",
+  },
+  {
+    title: "Invitacion Evento",
+    url: "https://github.com/SergioVazRizo/invitacionEventoAstro",
+  },
+  {
+    title: "Web de universidad con Microservicios (Proyecto Universitario)",
+    url: "https://github.com/SergioVazRizo/Front-end-ColegioMilitar",
   },
 ];
 
@@ -81,14 +89,14 @@ export const contact = [
 
 export const certificates = [
   {
-    issued: "2022",
+    issued: "2023",
     title: "CCNA: Introduction to Networks",
     org: "Cisco Networking Academic",
     url: "https://www.credly.com/badges/7511c7eb-ae96-4cd0-9974-c41931a1c028/public_url",
     description: "Certificado Curso.",
   },
   {
-    issued: "2022",
+    issued: "2023",
     title: "CCNA: Switching, Routing, and Wireless Essentials",
     org: "Cisco Networking Academic",
     url: "https://www.credly.com/badges/39b16982-5b87-4ea3-b3c7-40f31149f0fe/public_url",
