@@ -5,7 +5,7 @@ export const location = "León, Gto";
 
 // About
 export const about =
-  "Desarrollador de software con experiencia en la creación de aplicaciones multiplataforma, especializado en Programación Orientada a Objetos y desarrollo web. Competente en tecnologías frontend como HTML, CSS, JavaScript y Bootstrap, con conocimientos prácticos en frameworks modernos como Angular y Astro. Habilidades en el diseño, implementación y gestión de bases de datos tanto relacionales (MySQL) como no relacionales (MongoDB). Familiarizado con el desarrollo de aplicaciones móviles utilizando Android Studio, con capacidad para gestionar proyectos desde la arquitectura hasta el despliegue, optimizando el rendimiento y la usabilidad de los sistemas.";
+  "Desarrollador .Net (C#) con experiencia en el desarrollo de ERP desktop, experiencia en desarrollo de Oracle Netsuite, experiencia en desarrollo de lenguaje AX realizando desarrollos en el ERP Dynamics 365, manejo de herramientas como SQL Server y MySql,";
 
 // Work Experience --> #work section
 export const work = [
@@ -25,6 +25,13 @@ export const work = [
     org_url: "https://www.castores.com.mx/",
     location: "León, Gto",
   },
+  {
+    from:"2024",
+    to:"Acyualidad",
+    rol:"Desarrollador Junior",
+    org:"Grupo Cuadra",
+    location:"León, Gto"
+  }
 ];
 
 // Projects --> #project section
@@ -107,6 +114,13 @@ export const certificates = [
     title: "Partner: NDG Linux Essentials",
     org: "Cisco Networking Academic",
     url: "",
+    description: "Certificado Curso.",
+  },
+  {
+    issued: "2024",
+    title: "Junior Cybersecurity Analyst Career Path",
+    org: "Cisco Networking Academic",
+    url: "https://www.credly.com/earner/earned/badge/aaee35cb-ef90-4c2a-a13d-a4083ecc84a9",
     description: "Certificado Curso.",
   },
 ];
