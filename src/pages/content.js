@@ -27,8 +27,8 @@ export const work = [
   },
   {
     from:"2024",
-    to:"Acyualidad",
-    rol:"Desarrollador Junior",
+    to:"Actualidad",
+    role:"Desarrollador Junior",
     org:"Grupo Cuadra",
     location:"León, Gto"
   }
