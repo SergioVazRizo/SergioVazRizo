@@ -1,0 +1,20 @@
+// src/components/SkillBar.astro
+---
+const { skill, percentage, color = "bg-primary" } = Astro.props;
+---
+
+<div class="mb-4">
+  <div class="flex justify-between mb-1">
+    <span class="text-base font-medium text-text/90 dark:text-gray-200">{skill}</span>
+    <span class="text-sm font-medium text-text/70 dark:text-gray-400">{percentage}%</span>
+  </div>
+  <div class="w-full bg-gray-700/30 rounded-full h-2.5 dark:bg-gray-700">
+    <div 
+      class={`${color} h-2.5 rounded-full`} 
+      style=`width: ${percentage}%`
+      x-data="{}"
+      x-init="setTimeout(() => $el.style.width = '${percentage}%', 500)"
+      style="width: 0%;"
+    ></div>
+  </div>
+</div>

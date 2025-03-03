@@ -1,34 +1,125 @@
+// src/pages/index.astro
 ---
-import * as CONTENT from "./content"
+import * as CONTENT from "./content";
 import Container from "../components/Container.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import ThemeToggle from "../components/ThemeToggle.astro";
+import SEO from "../components/SEO.astro";
+import SkillsSection from "../components/SkillsSection.astro";
+import ProjectsSection from "../components/ProjectsSection.astro";
 ---
 
-<html lang="en">
+<html lang="es" class="scroll-smooth">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>CV | {CONTENT.name}</title>
+		<SEO 
+			title={`CV | ${CONTENT.name} - ${CONTENT.designation}`} 
+			description={`Portafolio profesional de ${CONTENT.name}, ${CONTENT.designation} especializado en .NET, C# y desarrollo web.`}
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 	</head>
-	<body class="bg-background text-text flex flex-col min-h-screen">
+	<body class="bg-background dark:bg-gray-900 text-text dark:text-gray-100 transition-colors duration-300 flex flex-col min-h-screen">
+		<!-- Botón de cambio de tema -->
+		<ThemeToggle />
 
 		<Header />
 
 		<!-- Bar Effect -->
 		<article class="mx-auto h-fit max-w-3xl w-[95vw] flex flex-nowrap bg-slate-400">
-				<div class="bg-slate-900 hover:scale-x-[2] w-full h-1.5" id="one"></div>
-				<div class="bg-red-900 hover:scale-x-[2] w-full h-1.5" id="two"></div>
-				<div class="bg-blue-900 hover:scale-x-[2] w-full h-1.5" id="three"></div>
+				<div class="bg-slate-900 dark:bg-blue-500 hover:scale-x-[2] w-full h-1.5 transition-all" id="one"></div>
+				<div class="bg-red-900 dark:bg-green-500 hover:scale-x-[2] w-full h-1.5 transition-all" id="two"></div>
+				<div class="bg-blue-900 dark:bg-purple-500 hover:scale-x-[2] w-full h-1.5 transition-all" id="three"></div>
 		</article>
 
-		<main class="mx-auto flex-grow max-h-[90vh] md:max-h-[70vh] max-w-3xl overflow-y-scroll grid gap-5 p-5 w-[95vw]">
-			<Container />
+		<main class="mx-auto flex-grow max-h-[90vh] md:max-h-[70vh] max-w-3xl overflow-y-scroll grid gap-5 p-5 w-[95vw] scroll-smooth">
+			<ul class="shadow-box">
+				<!-- Acerca de mí -->
+				<AccordionLayout title={"Acerca de mí"} icon={"mdi:account-badge-outline"}>
+					{CONTENT.about}
+				</AccordionLayout>
+				
+				<!-- Habilidades Técnicas -->
+				<SkillsSection />
+				
+				<!-- Proyectos -->
+				<ProjectsSection />
+				
+				<!-- Experiencia -->
+				<AccordionLayout title={"Experiencia"} icon={"ic:baseline-work-outline"}>
+					{
+						CONTENT.work.map((item) => {
+							return (
+								<Card
+									title={item.role}
+									timeframe={`${item.from} - ${item.to}`}
+									description={item.location}
+									url={item.org_url || "#"}
+									url_name={item.org}
+								/>
+							);
+						})
+					}
+				</AccordionLayout>
+				
+				<!-- Educación -->
+				<AccordionLayout title={"Educación"} icon={"carbon:education"}>
+					{
+						CONTENT.education.map((item) => {
+							return (
+								<Card
+									title={item.course}
+									timeframe={`${item.from} - ${item.to}`}
+									description={item.location}
+									tags={""}
+									url={"#"}
+									url_name={item.institute}
+								/>
+							);
+						})
+					}
+				</AccordionLayout>
+				
+				<!-- Certificados -->
+				<AccordionLayout title={"Certificados"} icon={"carbon:certificate"}>
+					{
+						CONTENT.certificates.map((item) => {
+							return (
+								<Card
+									title={item.title}
+									timeframe={item.issued}
+									description={item.org}
+									tags={item.description}
+									url={item.url || "#"}
+									url_name={"Ver Certificado"}
+								/>
+							);
+						})
+					}
+				</AccordionLayout>
+				
+				<!-- Contacto -->
+				<AccordionLayout title={"Contáctame"} icon={"ri:contacts-book-fill"}>
+					{
+						CONTENT.contact.map((item) => {
+							return (
+								<Card
+									title={""}
+									timeframe=""
+									description=""
+									tags=""
+									url={item.source}
+									url_name={item.source_name}
+								/>
+							);
+						})
+					}
+				</AccordionLayout>
+			</ul>
 		</main>
 
 		<Footer />
@@ -48,17 +139,50 @@ import Footer from "../components/Footer.astro";
 		}
 	}
 
-	 /* For webkit-based browsers */
+	/* Scrollbar styling */
 	.overflow-y-scroll::-webkit-scrollbar {
 		width: 3px;
 	}
 
 	.overflow-y-scroll::-webkit-scrollbar-thumb {
-		background-color:#50595e;
+		@apply bg-primary/50 dark:bg-primary/70;
+		border-radius: 3px;
+	}
+
+	.overflow-y-scroll::-webkit-scrollbar-track {
+		@apply bg-background/30 dark:bg-gray-800/30;
 	}
 
 	/* For Firefox */
 	.overflow-y-scroll {
-		scrollbar-width: 1px;
+		scrollbar-width: thin;
+		scrollbar-color: var(--primary) transparent;
+	}
+	
+	/* Animaciones */
+	@keyframes fadeIn {
+		from { opacity: 0; transform: translateY(20px); }
+		to { opacity: 1; transform: translateY(0); }
+	}
+	
+	.animate-fadeIn {
+		animation: fadeIn 0.5s ease-out forwards;
+	}
+	
+	/* Estilos para modo oscuro */
+	.dark .card-shadow {
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	}
 </style>
+
+<script>
+	// Script para animaciones de entrada
+	document.addEventListener('DOMContentLoaded', () => {
+		const elements = document.querySelectorAll('.shadow-box > li');
+		elements.forEach((element, index) => {
+			setTimeout(() => {
+				element.classList.add('animate-fadeIn');
+			}, index * 100);
+		});
+	});
+</script>

@@ -124,3 +124,36 @@ export const certificates = [
     description: "Certificado Curso.",
   },
 ];
+
+// Skills --> #skills section
+export const skills = [
+  {
+    category: "Frontend",
+    items: [
+      { name: "HTML/CSS", level: 85 },
+      { name: "JavaScript", level: 80 },
+      { name: "Tailwind CSS", level: 75 },
+      { name: "Alpine.js", level: 70 },
+      { name: "Astro", level: 65 },
+    ]
+  },
+  {
+    category: "Backend",
+    items: [
+      { name: "C#", level: 90 },
+      { name: ".NET Framework", level: 85 },
+      { name: "SQL Server", level: 80 },
+      { name: "MySQL", level: 75 }
+    ]
+  },
+  {
+    category: "Herramientas & Otros",
+    items: [
+      { name: "Git", level: 85 },
+      { name: "VS Code", level: 90 },
+      { name: "Visual Studio", level: 85 },
+      { name: "Oracle NetSuite", level: 70 },
+      { name: "Dynamics 365", level: 65 }
+    ]
+  }
+];
