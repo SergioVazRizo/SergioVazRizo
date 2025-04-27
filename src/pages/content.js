@@ -5,7 +5,7 @@ export const location = "León, Gto";
 
 // About
 export const about =
-  "Desarrollador .Net (C#) con experiencia en el desarrollo de ERP desktop, experiencia en desarrollo de Oracle Netsuite, experiencia en desarrollo de lenguaje AX realizando desarrollos en el ERP Dynamics 365, manejo de herramientas como SQL Server y MySql,";
+  "Desarrollador con experiencia laboral en el desarrollo de ERP desktop con .NET(#), experiencia en ERP Oracle Netsuite,manejo de las Integraciones y API de Netsuite, experiencia en plataforma del ecomerce Shopify, manejo de herramientas como SQL Server y MySql, Experiencia laboral con metodologias de trabajo agiles como SCRUM, Desarrollo web con Freamworks como Flask con el uso de Python.";
 
 // Work Experience --> #work section
 export const work = [

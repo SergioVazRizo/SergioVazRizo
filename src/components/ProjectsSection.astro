@@ -1,0 +1,22 @@
+---
+import * as CONTENT from "../pages/content";
+import AccordionLayout from "../layouts/AccordionLayout.astro";
+import Card from "./Card.astro";
+---
+
+<AccordionLayout title={"Proyectos"} icon={"ion:md-build"}>
+  {
+    CONTENT.projects.map((item) => {
+      return (
+        <Card
+          title={item.title}
+          timeframe=""
+          description=""
+          tags=""
+          url={item.url}
+          url_name={"Ver código fuente"}
+        />
+      );
+    })
+  }
+</AccordionLayout>
